@@ -1,6 +1,6 @@
 # Project3
 
-This is the final delivery of the Advanced Graphics Programming subject adn this README contains all its documentation.
+This is the final delivery of the Advanced Graphics Programming subject and this README contains all its documentation.
 
 ## Made by:
 [Òscar Faura](https://github.com/ofaura)
