@@ -9,7 +9,7 @@ This is the final delivery of the Advanced Graphics Programming subject and this
 
 ## Instructions of use
 
-**Camera Movement:** W, A, S, D
+**Camera Movement:** W, A, S, D, E, Q
 
 **Camera rotation:** (Mouse) Left click & drag
 
