@@ -879,6 +879,7 @@ void passBloom(App* app, GLuint fbo, GLenum colorAttachment, GLuint inputTexture
         glEnableVertexAttribArray(1);
         glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
     }
+
     glBindVertexArray(VAO);
     glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
     glBindVertexArray(0);
@@ -920,6 +921,7 @@ void passBlitBrightPixels(App* app, GLuint fbo, const glm::uvec2& viewportSize, 
         glEnableVertexAttribArray(1);
         glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
     }
+
     glBindVertexArray(VAO);
     glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
     glBindVertexArray(0);
@@ -1135,7 +1137,7 @@ void Render(App* app)
         glBindTexture(GL_TEXTURE_2D, app->rtBright);
         glGenerateMipmap(GL_TEXTURE_2D);
 
-        //// horizontal blur
+        // horizontal blur
         passBlur(app, app->fboBloom1, glm::vec2(w / 2, h / 2),     GL_COLOR_ATTACHMENT1, app->rtBright, LOD(0), horizontal);
         passBlur(app, app->fboBloom2, glm::vec2(w / 4, h / 4),     GL_COLOR_ATTACHMENT1, app->rtBright, LOD(1), horizontal);
         passBlur(app, app->fboBloom3, glm::vec2(w / 8, h / 8),     GL_COLOR_ATTACHMENT1, app->rtBright, LOD(2), horizontal);
