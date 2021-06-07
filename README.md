@@ -9,9 +9,9 @@ This is the final delivery of the Advanced Graphics Programming subject and this
 
 ## Instructions of use
 
-*Camera Movement:* W, A, S, D
+**Camera Movement:** W, A, S, D
 
-*Camera rotation:* (Mouse) Left click & drag
+**Camera rotation:** (Mouse) Left click & drag
 
 ---
 
@@ -55,8 +55,11 @@ For this delivery we implemented Bloom and SSAO (Screen Space Ambient Oclusion).
 
 As you can see, we implemented Bloom to the model viewer. Here we can see 2 images of the before and after applying this technique.
 
-![Without Bloom](https://raw.githubusercontent.com/AGP-Project/Project3/main/Documentation_Images/No_Bloom_Defferred.JPG "Without Bloom") 
-![With Bloom](https://raw.githubusercontent.com/AGP-Project/Project3/main/Documentation_Images/Bloom_Defferred.JPG "With Bloom") 
+| Bloom Off        | Bloom ON           |
+| ------------- |:-------------:|
+| ![Without Bloom](https://raw.githubusercontent.com/AGP-Project/Project3/main/Documentation_Images/No_Bloom_Defferred.JPG "Without Bloom")      | ![With Bloom](https://raw.githubusercontent.com/AGP-Project/Project3/main/Documentation_Images/Bloom_Defferred.JPG "With Bloom") |
+
+
 
 To enable/disable Bloom you only need to click on the checkbox called *renderBloom*. You can also change the Threshold by clicking  on the threshold text box 
 & typing the desired number.
@@ -65,7 +68,7 @@ You can also change the Kernel Radius and the intensity of each level of detail 
 
 ![Bloom](https://raw.githubusercontent.com/AGP-Project/Project3/main/Documentation_Images/Bloom_Imgui.JPG "Extensions") 
 
-You can find the code for bloom under line 515 of the shaders.glsl file!
+You can find the code for bloom under **line 515** of the **shaders.glsl** file!
 
 ### Screen space ambient occlusion (SSAO)
 
