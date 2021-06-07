@@ -21,9 +21,13 @@ First, we have a text area were you can see the current FPS and information rega
 
 ![Info](https://raw.githubusercontent.com/AGP-Project/Project3/main/Documentation_Images/Information.JPG "Information")
 
+---
+
 After that, we have a set of boxes in which we can set the movement speed, FOV (Field of View), nearplane, farplane and camera position.
 
 ![Camera](https://raw.githubusercontent.com/AGP-Project/Project3/main/Documentation_Images/Camera_Imgui.JPG "Camera")
+
+---
 
 After that we have a set of sections to use Bloom and SSAO but those will be covered further in the documentation. After these we have a Render Mode combobox to change the rendering mode. By clicking on the small arrow you can switch between these modes:
 
@@ -35,6 +39,8 @@ After that we have a set of sections to use Bloom and SSAO but those will be cov
 * Position
 
 ![Mode](https://raw.githubusercontent.com/AGP-Project/Project3/main/Documentation_Images/Render_Mode_Imgui.JPG "Render Mode")
+
+---
 
 Finally, we have a window with all the GLSL extensions listed, and the list can be navigated using the small bar on the right.
 
