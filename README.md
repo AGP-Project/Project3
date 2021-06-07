@@ -68,7 +68,7 @@ You can also change the Kernel Radius and the intensity of each level of detail 
 
 ![Bloom](https://raw.githubusercontent.com/AGP-Project/Project3/main/Documentation_Images/Bloom_Imgui.JPG "Extensions") 
 
-You can find the code for bloom under **line 515** of the **shaders.glsl** file!
+You can find the code for bloom under **line 515** of [shaders.glsl](https://github.com/AGP-Project/Project3/blob/main/Engine/WorkingDir/shaders.glsl) file!
 
 ---
 
@@ -89,7 +89,7 @@ you can either drag your mouse while clicking, or double click and type the desi
 
 ![SSAO](https://raw.githubusercontent.com/AGP-Project/Project3/main/Documentation_Images/SSAO_Imgui.JPG "SSAO")
 
-The code for the SSAO Technique can be found under **line 575**  of the **shaders.glsl** file!
+The code for the SSAO Technique can be found under **line 575**  of [shaders.glsl](https://github.com/AGP-Project/Project3/blob/main/Engine/WorkingDir/shaders.glsl) file!
 
 
 
