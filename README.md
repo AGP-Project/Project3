@@ -70,7 +70,7 @@ You can also change the Kernel Radius and the intensity of each level of detail 
 
 You can find the code for bloom under **line 515** of the **shaders.glsl** file!
 
---
+---
 
 ### Screen space ambient occlusion (SSAO)
 
