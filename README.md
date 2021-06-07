@@ -3,13 +3,35 @@
 This is the final delivery of the Advanced Graphics Programming subject adn this README contains all its documentation.
 
 ## Made by:
-Òscar Faura
-Dídac Romero
+[Òscar Faura](https://github.com/ofaura)
+
+[Dídac Romero](https://github.com/DidacRomero)
 
 ## Instructions of use
 
+Camera Movement: W, A, S, D
 
-## Advanced Tecniques
+Camera rotation: (Mouse) Left click & drag
+
+Aside from the camera movement, we have an Imgui tab to control different aspects of the model viewer and to see information of OpenGL and our graphics context.
+
+First, we have a text area were you can see the current FPS and information regarding the OpenGL version, renderer etc.
+
+After that, we have a set of boxes in which we can set the movement speed, FOV (Field of View), nearplane, farplane and camera position.
+
+After that we have a set of sections to use Bloom and SSAO but those will be covered further in the documentation.
+
+After these we have a Render Mode combobox to change the rendering mode. By clicking on the small arrow you can switch between these modes:
+
+* Deferred Render
+* Forward Render
+* Albedo
+* Depth
+* Normals
+* Position
+
+## Advanced Techniques
+For this delivery we implemented Bloom and SSAO (Screen Space Ambient Oclusion).
 
 ### Bloom
 
