@@ -17,6 +17,8 @@ Aside from the camera movement, we have an Imgui tab to control different aspect
 
 First, we have a text area were you can see the current FPS and information regarding the OpenGL version, renderer etc.
 
+![alt text](https://raw.githubusercontent.com/AGP-Project/Project3/main/Documentation_Images/Information.JPG "Information")
+
 After that, we have a set of boxes in which we can set the movement speed, FOV (Field of View), nearplane, farplane and camera position.
 
 After that we have a set of sections to use Bloom and SSAO but those will be covered further in the documentation.
